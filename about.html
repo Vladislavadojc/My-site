@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне | Владислава Дойч</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Владислава<span>Дойч</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html" class="active">Обо мне</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- САЛАТОВАЯ ШАПКА: только текст -->
+        <section class="about-hero">
+            <div class="container">
+                <div class="about-hero-content">
+                    <div class="about-hero-text">
+                        <h1>Обо мне</h1>
+                        <p class="about-subheading">Познакомимся поближе ✨</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Анимированные иконки на зелёном фоне -->
+            <div class="hero-icons">
+                <i class="fas fa-code floating-icon"></i>
+                <i class="fas fa-music floating-icon"></i>
+                <i class="fas fa-laptop-code floating-icon"></i>
+                <i class="fas fa-cuttlefish floating-icon"></i>
+                <i class="fas fa-palette floating-icon"></i>
+                <i class="fas fa-guitar floating-icon"></i>
+            </div>
+        </section>
+
+        <!-- БЛОК: СТЕКЛЯННЫЙ БЛОК (личная информация) + ФОТОАЛЬБОМ -->
+        <section class="about-info-section">
+            <div class="container">
+                <div class="info-and-album">
+                    <!-- Левая колонка: стеклянный блок + надпись о путешествиях -->
+                    <div class="left-info">
+                        <div class="glass-card">
+                           
+                            <div class="glass-info">
+                                <div class="info-row"><i class="fas fa-user"></i> <strong>Имя:</strong> Дойч Владислава</div>
+                                <div class="info-row"><i class="fas fa-birthday-cake"></i> <strong>Возраст:</strong> 17 лет</div>
+                                <div class="info-row"><i class="fas fa-map-marker-alt"></i> <strong>Город:</strong> Учалы</div>
+                                <div class="info-row"><i class="fas fa-plane"></i> <strong>Люблю:</strong> Путешествовать и открывать новые места</div>
+                            </div>
+                        </div>
+                        <!-- Надпись про путешествия под стеклянным блоком -->
+                        <div class="travel-inspire">
+                            
+                            <p>🌍 Моя любовь к путешествиям — это не просто хобби, а состояние души. Каждая поездка делает меня богаче: не вещами, а воспоминаниями, которые остаются со мной навсегда.</p>
+                        </div>
+                    </div>
+
+                    <!-- Правая колонка: фотоальбом с 4 фото -->
+                    <div class="album-wrapper">
+                        <div class="album-container">
+                            <h3 class="album-title"><i class="fas fa-images"></i> Мои моменты</h3>
+                            <div class="slider">
+                                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                                <div class="slider-container">
+                                    <div class="slider-track">
+                                        <div class="slide"><img src="images/photo1.jpg" alt="Фото 1"></div>
+                                        <div class="slide"><img src="images/photo2.jpg" alt="Фото 2"></div>
+                                        <div class="slide"><img src="images/photo3.jpg" alt="Фото 3"></div>
+                                        <div class="slide"><img src="images/photo4.jpg" alt="Фото 4"></div>
+                                    </div>
+                                </div>
+                                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="slider-dots"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- МУЗЫКАЛЬНАЯ СТИХИЯ (НОВЫЙ БЛОК) -->
+        <section class="music-showcase">
+            <div class="container">
+                <div class="music-showcase-wrapper">
+                    <div class="music-info-block">
+                        <h3><i class="fas fa-music"></i> Музыкальная стихия</h3>
+                        <ul>
+                            <li><strong>• Свидетельство о музыкальном образовании по классу флейты</strong> (8 лет)</li>
+                            <li><strong>• Свидетельство о дополнительном обучении по классу фортепиано</strong> (5 лет)</li>
+                            <li><strong>• Свидетельство о дополнительном обучении по классу гитары</strong> (2,5 года)</li>
+                        </ul>
+                    </div>
+                    <div class="music-photo-block">
+                        <div class="main-photo">
+                            <img src="images/music-main.jpg" alt="флейта">
+                            <div class="overlay-photo top-left">
+                                <img src="images/flute-circle.jpg" alt="Флейта">
+                            </div>
+                            <div class="overlay-photo bottom-right">
+                                <img src="images/guitar-circle.jpg" alt="Гитара">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- БЛОК СПОРТИВНЫХ НАВЫКОВ -->
+<section class="sports-showcase">
+    <div class="container">
+        <div class="sports-wrapper">
+            <div class="sports-photos">
+                <div class="sports-photo-stack">
+                <div class="sports-photo-item back">
+                    <div class="photo-container">
+                         <img src="images/sport1.jpg" alt="Волейбол">
+                    </div>
+                    
+                     <div class="sports-star-icon"><i class="fas fa-star"></i></div>
+                </div>
+                <div class="sports-photo-item">
+                     <div class="photo-container">
+                        <img src="images/sport2.jpg" alt="Танцы">
+                     </div>
+                     <div class="sports-star-icon"><i class="fas fa-star"></i></div>
+                </div>
+            </div>
+            </div>
+            <div class="sports-text">
+                <div class="sports-info-block">
+                    <h3><i class="fas fa-heartbeat"></i> Спортивные навыки</h3>
+                    <ul>
+                        <li><strong>• Волейбол</strong> (5 лет)</li>
+                        <li><strong>• Танцы</strong> (2 года)</li>
+                        <li><strong>• Тайский бокс</strong> (1,5 года)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- БЛОК ВОЛОНТЁРСТВА -->
+<section class="volunteer-showcase">
+    <div class="container">
+        <div class="volunteer-grid">
+            <div class="volunteer-text">
+                <div class="volunteer-info-block">
+                    <h3><i class="fas fa-hands-helping"></i> Волонтёрство</h3>
+                    <p>Я волонтёр в колледже. Всегда там, где нужна помощь. В движении с первого курса.</p>
+                </div>
+            </div>
+            <div class="volunteer-photos">
+                <div class="volunteer-photo-stack">
+                    <img src="images/volunteer1.jpg" alt="Волонтёрство 1" class="volunteer-img front">
+                    <img src="images/volunteer2.jpg" alt="Волонтёрство 2" class="volunteer-img back">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    
+    </main>
+    <!-- БЛОК CTA (как на главной) -->
+<section class="cta">
+    <div class="container">
+        <h2>Готова к новым проектам</h2>
+        <p>Давайте создадим что-то удивительное вместе</p>
+        <a href="contact.html" class="btn-primary">Написать мне →</a>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p><i class="far fa-copyright"></i> 2026 Владислава Дойч | Сайт-визитка</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

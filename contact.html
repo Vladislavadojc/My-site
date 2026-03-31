@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Владислава Дойч</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Владислава<span>Дойч</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header" style="background: #e9ffc2; position: relative; overflow: hidden;">
+    <div class="container">
+        <h1>Свяжитесь со мной</h1>
+        <p>Буду рада новым знакомствам и возможностям</p>
+    </div>
+    <!-- Анимированные иконки -->
+    <div class="hero-icons">
+        <i class="fas fa-envelope floating-icon"></i>
+        <i class="fas fa-paper-plane floating-icon"></i>
+        <i class="fas fa-comment floating-icon"></i>
+        <i class="fas fa-phone-alt floating-icon"></i>
+        <i class="fas fa-share-alt floating-icon"></i>
+        <i class="fas fa-globe floating-icon"></i>
+    </div>
+</section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Левая колонка: контактные данные -->
+                    <div class="contact-info">
+                        <h2>Давайте общаться!</h2>
+                        <p>Вы можете связаться со мной любым удобным способом. Я открыта к сотрудничеству, стажировкам и просто интересным знакомствам.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>vladislavadojc@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-telegram"></i>
+                                <div>
+                                    <h3>Telegram</h3>
+                                    <p>@ka0me</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-vk"></i>
+                                <div>
+                                    <h3>ВКонтакте</h3>
+                                    <p>vk.com/klee.ning</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h3>Телефон</h3>
+                                    <p>+7 961 042 14 31</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-media">
+                            <h3>Социальные сети</h3>
+                            <div class="social-icons">
+                                <a href="https://vk.com/klee.ning" target="_blank"><i class="fab fa-vk"></i></a>
+                                <a href="https://t.me/ka0me" target="_blank"><i class="fab fa-telegram"></i></a>
+                                <a href="https://instagram.com/ваш_аккаунт" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Правая колонка: форма -->
+                    <div class="contact-form">
+                        <h2>Напишите мне</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Ваш Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Ваше сообщение..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Отправить <i class="fas fa-paper-plane"></i></button>
+                            <div id="formMessage" class="form-message"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><i class="far fa-copyright"></i> 2026 Владислава Дойч | Сайт-визитка</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
