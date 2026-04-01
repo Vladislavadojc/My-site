@@ -927,10 +927,10 @@ footer {
         gap: 2rem;
     }
     .left-info {
-        order: 2;
+        order: 1;
     }
     .album-wrapper {
-        order: 1;
+        order: 2;
     }
     .about-hero-text h1 {
         font-size: 2.5rem;
