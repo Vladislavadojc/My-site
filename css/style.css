@@ -1575,3 +1575,35 @@ footer {
         transform: rotate(0deg) !important;
     }
 }
+.goal-block {
+    background: rgba(139, 92, 246, 0.05);
+    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-left: 3px solid #8b5cf6;
+}
+.goal-block i {
+    font-size: 1.8rem;
+    color: #8b5cf6;
+    flex-shrink: 0;
+}
+.goal-block p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #4a4a6a;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .goal-block {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    .goal-block i {
+        font-size: 1.5rem;
+    }
+}
